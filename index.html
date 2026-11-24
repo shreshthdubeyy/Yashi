@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BRB.</title>
+
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #faf9f6;
+        color: #202020;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    main {
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: clamp(64px, 13vw, 110px);
+        letter-spacing: -8px;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    .dot { color: #ff6847; }
+
+    .sub {
+        margin-top: 18px;
+        color: #888;
+        font-size: 14px;
+    }
+
+    .contact {
+        margin-top: 38px;
+        font-size: 13px;
+        color: #999;
+    }
+
+    .email {
+        display: inline-block;
+        margin-top: 9px;
+        padding: 11px 17px;
+        border: 1px solid #e8e6e1;
+        border-radius: 8px;
+        color: #202020;
+        background: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 0.2s ease;
+    }
+
+    .email:hover {
+        border-color: #ff6847;
+        transform: translateY(-2px);
+    }
+</style>
+</head>
+
+<body>
+    <main>
+        <h1>BRB<span class="dot">.</span></h1>
+
+        <p class="sub">Just a little maintenance.</p>
+
+        <div class="contact">
+            Need an update?
+            <br>
+            <a class="email" href="mailto:shreshthdubeyy@gmail.com">
+                ✉ shreshthdubeyy@gmail.com ↗
+            </a>
+        </div>
+    </main>
+</body>
+</html>
